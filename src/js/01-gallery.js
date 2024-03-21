@@ -30,9 +30,8 @@ function createGalleryMarkup( galleryItems) {
 };
 
 
-const lightbox = new SimpleLightbox('.gallery a', {
+ new SimpleLightbox('.gallery a', {
     captionsData:"alt",
     captionPosition:"bottom",
     captionDelay:200,
 });
-console.log(lightbox);
